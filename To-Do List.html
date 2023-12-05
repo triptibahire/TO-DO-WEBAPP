@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do WebApp</title>
+    <link rel="stylesheet" href="To-Do List.css">
+</head>
+
+<body>
+    <div>
+        <h1>To-Do WebApp</h1>
+    </div>
+    <div class="wrapper">
+        <div class="task-input">
+            <i class=""></i>
+            <input type="text" placeholder="New Task" id="txtItem">
+            <i class="" onclick="saveTask()"></i>
+
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <div>
+                    <span class="active" id="all">All</span>
+                </div>
+                <span id="pending">To-Do</span>
+                <span id="pending">In-Progress</span>
+                <span id="completed">Closed</span>
+            </div>
+            <button class="clear-btn active">Clear All</button>
+        </div>
+        <ul class="task-box">
+            <li class="task">
+                <label>
+                    <p>name</p>
+                </label>
+                <div class="settings">
+                    <i class="fa fa-pencil-square" aria-hidden="true"></i>
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+            </li>
+            <li class="task">
+                <label>
+                    <p>name</p>
+                </label>
+                <div class="settings">
+            <li class="fa fa-pencil-square" aria-hidden="true"></li>
+            <li class="fa fa-trash" aria-hidden="true"></li>
+    </div>
+    </li>
+    </ul>
+    </div>
+    <script src="To-Do List.js"></script>
+</body>
+
+</html>
